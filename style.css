@@ -2,16 +2,23 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
+.top-banner h1{
     font-size: 42px;
 }
-h1 span{
+.top-banner h3{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.top-banner p{
+    margin-bottom: 50px;
+}
+.top-banner h1 span{
     color:orangered;
 }
 section{
     display: flex;
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
